@@ -1,0 +1,93 @@
+:root{
+  --text-color:#FFF3DA;
+  --text2-color:linear-gradient(90deg ,#191D88 20%, #1450A3 ,#279EFF,#40F8FF);
+  --text4-color:#9A3B3B;
+  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(90deg ,#1450A3, #0C356A, #191D88 ,#0E21A0, #191D88,#1450A3 );
+  font-family: 'Mogra', cursive !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Ubuntu Condensed', sans-serif !important;
+}
+
+
+div{
+   padding-top: 250px;
+   text-align: center;
+  
+}
+
+
+
+
+div p{
+    margin: 30px;
+    color:var(--text-color);
+   
+
+
+}
+
+
+
+.button{
+  text-align: center;
+  padding:14px;
+  color:#191D88;
+  font-weight: bolder;
+}
+
+.button:hover{
+  background-color:#279EFF;
+}
+
+
+#change::before {
+  content: "Namita Raj";
+  color: #279EFF;
+  animation: animate infinite 5s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+
+  0% {
+      content: "नमिता राज";
+  }
+
+  15% {
+    content: "নমিতা রাজ";
+}
+ 
+  25%{
+    content: "纳米塔·拉吉";
+  }
+
+  35%{
+    content: "ナミタ ラージ";
+  }
+
+  45%{
+    content: "ನಮಿತಾ ರಾಜ್";
+  }
+
+
+  50% {
+    content: "নমিতা রাজ";
+}
+
+65%{
+  content: "നമിതാ രാജ്";
+}
+  
+
+  75% {
+      content: "નમિતા રાજ";
+  }
+}
